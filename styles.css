@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    background-color: #fbf1bf;
 }
 
 /* .round-image-container {
@@ -41,6 +42,26 @@ body {
 .scroll-menu {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    border-style: solid none;
+    margin: 0 3%;
+}
+
+.tall-scroll-menu {
+    align-items: stretch;
+}
+
+.arrow-button {
+    background-color: transparent;
+    border: none;
+}
+
+.forward-button {
+    transform: rotate(180deg);
+}
+
+.vertical-menu {
+    border: 1.5px solid black;
 }
 
 footer {
